@@ -1,6 +1,6 @@
 import json
-from constants import TASKS_FILE
-from models import Task
+from todo_cli_ultra.constants import TASKS_FILE
+from todo_cli_ultra.models import Task
 
 
 def save_task(task: str):
